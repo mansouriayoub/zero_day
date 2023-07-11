@@ -120,3 +120,57 @@ ssh 2ab7ea42f5dd@2ab7ea42f5dd.5c60bb3c.alx-cod.online
 ex
 :wq
 ex
+ls
+ls zero_day/
+cat zero_day/README.md 
+git add zero_day/
+git ommit -m "My first commit"
+git commit -m "My first commit"
+git push
+git push origin main
+git branch
+git push origin master
+git remote add origin https://github.com/mansouriayoub/zero_day.git
+git branch -M main
+git push -u origin main
+cd zero_day/
+ls
+mkdir 0x00-vagrant
+touch README.md
+ls
+cat README.md 
+cd 0x00-vagrant/
+ls
+touch README.md
+ls
+touch 0-hello_ubuntu
+uname
+echo "Linux" > 0-hello_ubuntu 
+cd ..
+git add 0x00-vagrant/
+git commit -m 'output of uname'
+git push
+git push origin main
+cd ..
+git add 0x00-vagrant/
+git add .
+git commit -m 'output of uname'
+git push
+ls zero_day/0x00-vagrant/
+cat zero_day/0x00-vagrant/README.md 
+cd zero_day/
+git add .
+git commit -m 'output of uname'
+git push
+git push --set-upstream origin main
+git status
+cd 0
+cd 0x00-vagrant/
+git status
+git add .
+git commit -m 'output of uname'
+git push origin
+git push zero_day
+git push --set-upstream origin main
+cd ..
+ssh 2ab7ea42f5dd@2ab7ea42f5dd.5c60bb3c.alx-cod.online
